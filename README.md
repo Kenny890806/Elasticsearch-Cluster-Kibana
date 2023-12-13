@@ -60,8 +60,8 @@ root@node2:/usr/share/elasticsearch/bin# ./elasticsearch-reconfigure-node --enro
 ```
 ### SSL certificate Example
 
-![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/SSL_3.png)
-![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/ELK_yml.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/image/SSL_3.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/image/ELK_yml.png)
 
 
 key: /path/to/file/nsysu.key
@@ -126,7 +126,7 @@ Input token: ******************************
 
 ### SSL certificate Example
 
-![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/kibana_yml.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/image/kibana_yml.png)
 
 
 server.ssl.certificate: /path/to/file/nsysu.cer
