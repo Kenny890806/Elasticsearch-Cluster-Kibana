@@ -31,6 +31,7 @@ echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://arti
 sudo apt-get update && sudo apt-get install elasticsearch
 
 ```
+**After you finish install** you will get
 ```
 ### NOT starting on installation, please execute the following statements to configure elasticsearch service to start automatically using systemd
  sudo systemctl daemon-reload
@@ -38,6 +39,7 @@ sudo apt-get update && sudo apt-get install elasticsearch
 ### You can start elasticsearch service by executing
  sudo systemctl start elasticsearch.service
 ```
+### Reset password
 
 # Add node to cluster
 
@@ -58,8 +60,8 @@ root@node2:/usr/share/elasticsearch/bin# ./elasticsearch-reconfigure-node --enro
 ```
 ### SSL certificate Example
 
-![image](https://hackmd.io/_uploads/ByqynS3rp.png)
-![image](https://hackmd.io/_uploads/rJzX3B2rT.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/SSL_3.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/ELK_yml.png)
 
 :::info
 key: /path/to/file/nsysu.key
@@ -124,7 +126,7 @@ Input token: ******************************
 
 ### SSL certificate Example
 
-![image](https://hackmd.io/_uploads/ByLq2H2Bp.png)
+![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/kibana_yml.png)
 
 :::info
 server.ssl.certificate: /path/to/file/nsysu.cer
