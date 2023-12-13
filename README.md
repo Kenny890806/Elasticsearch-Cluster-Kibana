@@ -46,10 +46,10 @@ sudo apt-get update && sudo apt-get install elasticsearch
 ```root@node1:/usr/share/elasticsearch/bin# ./elasticsearch-create-enrollment-token -s node```
 
 ## Token
-:::info
+
 <font color="#f00">You will receive Token
 </font>
-:::
+
 
 ## Node2~Node7
 
@@ -63,13 +63,13 @@ root@node2:/usr/share/elasticsearch/bin# ./elasticsearch-reconfigure-node --enro
 ![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/SSL_3.png)
 ![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/ELK_yml.png)
 
-:::info
+
 key: /path/to/file/nsysu.key
 certificate: /path/to/file/nsysu.cer
-:::
+
 
 ## Summary: Adding Node to Cluster
-:::info
+
 ### elasticsearch.yml
 - **edit these fields**
     - cluster.name
@@ -80,7 +80,7 @@ certificate: /path/to/file/nsysu.cer
 - **review these fields**
     - discovery.seed_hosts
     - transport.hosts
-:::
+
 
 
 # Add Kibana
@@ -111,10 +111,10 @@ curl -X POST -u elastic:@SwDivision https://192.168.100.211:9200/_security/servi
 
 
 ### Token
-:::info
+
 <font color="#f00">You will receive Token
 </font>
-:::
+
 
 
 ### cd to **/usr/share/kibana/bin/**
@@ -128,10 +128,10 @@ Input token: ******************************
 
 ![image](https://github.com/Kenny890806/Elasticsearch-Cluster-Kibana/blob/main/kibana_yml.png)
 
-:::info
+
 server.ssl.certificate: /path/to/file/nsysu.cer
 server.ssl.key: /path/to/file/nsysu.key
-:::
+
 
 
 
